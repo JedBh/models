@@ -134,5 +134,5 @@ const selectionSort = (arr) => {
   return newArr;
 };
 
-const arr = [9, 8, 7, 6, 5, 4, 3, 0, 1];
-selectionSort(arr);
+// const arr = [9, 8, 7, 6, 5, 4, 3, 0, 1];
+// selectionSort(arr);

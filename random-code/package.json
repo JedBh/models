@@ -1,5 +1,5 @@
 {
-  "name": "randomCode",
+  "name": "random-code",
   "version": "1.0.0",
   "description": "Given an array arr, find element pairs whose sum equal the second argument arg and return the sum of their indices.",
   "main": "nana.js",

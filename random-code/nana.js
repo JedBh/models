@@ -118,3 +118,21 @@ function bubbleSort(arr) {
 }
 
 // bubbleSort([9, 8, 7, 6, 5, 4, 3, 2, 1]);
+
+Array.prototype.min = function () {
+  return Math.min.apply(null, this);
+};
+
+// selection sort
+const selectionSort = (arr) => {
+  let newArr = [];
+  while (arr.length > 0) {
+    newArr.push(arr.min());
+    let index = arr.indexOf(arr.min());
+    arr.splice(index, 1);
+  }
+  return newArr;
+};
+
+const arr = [9, 8, 7, 6, 5, 4, 3, 0, 1];
+selectionSort(arr);
